@@ -7,7 +7,8 @@
 
 ## output 
 # total ammount you've to pay is 
-while True: 
+while True:   # Loop allows multiple calculations in one run
+
     print("------------your rent calaculator-------------")
 
     rent = int(input("enter your hostel / flat / room rent $ : "))
@@ -37,5 +38,7 @@ while True:
     
     choice =  input("Do you want to calculate again? (yes/no): ").lower()
     if choice.lower() != 'yes':
-        print("!!!!!!!thank you for using rent calculator!!!!!!!")
+        print("!!!!!!!-------------------------!!!!!!!")
+        print("Thank you for using Rent Calculator 😊")
+
         break 
